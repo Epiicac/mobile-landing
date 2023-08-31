@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/variables.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/adaptive.css">
+		<link rel="stylesheet" href="fonts/TTNormsPro/stylesheet.css">
+		<link rel="stylesheet" href="fonts/RobotoFlex/stylesheet.css">
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.js" integrity="sha512-3Ei7OPFo83kw3cPbDLeLhn/YF8tZB7Vs8sfli0B/KEekureL5eosDeshYFICCvt4K8i0yUil/lK3cSiic2Wjkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.css" integrity="sha512-Aeqz1zfbRIQHDPsvEobXzaeXDyh8CUqRdvy6QBCQEbxIc/vazrTdpjEufMbxSW61+7a5vIDDuGh8z5IekVG0YA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		
+		<div class="main-nav">
+			<div class="menu-wrapper">
+				<div class="left">
+					<nav>
+						<div class="logo">
+							<a href="#">
+								<img draggable="false" src="images/logo.svg" alt="smg">
+							</a>
+						</div>
+						<ul class="menu-items">
+							<li>
+								<a class="menu-item" href="#about">О лендинге</a>
+							</li>
+							<li>
+								<a class="menu-item" href="#rate">Тарифы</a>
+							</li>
+							<li>
+								<a class="menu-item" href="#process">Процесс</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="right">
+					<a href="https://wa.me/79015171505" class="header-element">
+						<img draggable="false" src="images/waw.svg" alt="WhatsApp">
+					</a>
+					<a href="https://t.me/softmgbot" class="header-element">
+						<img draggable="false" src="images/tgw.svg" alt="WhatsApp">
+					</a>
+					<a href="mailto:landing@softmg.ru" class="header-element">outstaff@softmg.ru</a>
+					<img draggable="false" src="images/divider.svg" class="header-element">
+					<a href="tel:+7 (495) 532-72-71" class="header-element">+7 (495) 532-72-71</a>
+					<a href="#form" class="header-button button header-element">Оставить заявку</a>
+				</div>
+			</div>
+		</div>
+		<div class="main-nav mobile">
+			<div class="left">
+				<div class="logo">
+					<a href="#">
+						<img draggable="false" src="images/logo.svg" alt="smg">
+					</a>
+				</div>
+			</div>
+			<div class="right">
+				<div class="menu-trigger">
+					<img src="images/burger.svg" alt="=">
+				</div>
+			</div>
+			<div class="slide-menu-wrapper">
+				<div class="slide-menu">
+					<ul class="menu-items">
+						<li>
+							<a class="menu-item" href="#about">О лендинге</a>
+						</li>
+						<li>
+							<a class="menu-item" href="#rate">Тарифы</a>
+						</li>
+						<li>
+							<a class="menu-item" href="#process">Процесс</a>
+						</li>
+					</ul>
+					<div class="slide-menu-bottom">
+						<div class="menu-title"><span>Связаться с нами</span></div>
+						<div class="social">
+							<a href="tel:79015171505" class="header-social">
+								<div class="menu-icon">
+									<img src="images/phone_icon.svg">
+								</div>
+								<span>Позвонить</span>								
+							</a>
+							<a href="mailto:landing@softmg.ru" class="header-social">
+								<div class="menu-icon">
+									<img src="images/mail.svg">
+								</div>
+								<span>Написать</span>
+							</a>
+							<a href="https://wa.me/79015171505" class="header-social">
+								<div class="menu-icon">
+									<img src="images/wa_menu.svg">
+								</div>
+								<span>WhatsApp</span>								
+							</a>
+							<a href="https://t.me/softmgbot" class="header-social">
+								<div class="menu-icon">
+									<img src="images/telegram.png">
+								</div>
+								<span>Telegram</span>
+							</a>
+						</div>
+						<a href="#form" class="header-button button header-element">Оставить заявку</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<section id="first-slide">
+				<div class="banner">
+					<div class="banner-tags">
+						<div class="banner-tag-element">iOS</div>
+						<div class="banner-tag-element">Android</div>
+					</div>
+					<h1 class="banner-title">мобильная<br> разработка</h1>
+					<span class="banner-description">Помогаем сделать бизнес доступным и удобным для клиентов</span>
+					<a href="#form" class="banner-button button">Оставить заявку</a>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">разрабатываем<br> приложения:</h2>
+				<div class="choise-cards">
+					<div class="choise-card">
+						<span class="accent2 card-title">Кроссплатформенные</span>
+						<span class="card-text">Универсальность и доступность на всех платформах. Быстрый вывод приложения на рынок</span>
+						<div class="card-img">
+							<img draggable="false" src="images/cross-platform.png">
+						</div>
+					</div>
+					<div class="choise-card">
+						<span class="accent2 card-title">Нативные</span>
+						<span class="card-text">Бесперебойная работа и высокая скорость. Разрабатываются конкретно под IOS или Android</span>
+						<div class="card-img">
+							<img draggable="false" src="images/native.png">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="advant-section">
+				<div class="advant">
+					<div class="advant-controls section-title">
+						<h2>как мобильное приложение<br> влияет на бизнес</h2>
+						<div class="advant-navigation">
+							<img id="prevAdvant" src="images/leftNav.svg" alt="<">
+							<img draggable="false" src="images/navPipe.svg" alt="|">
+							<img id="nextAdvant" src="images/rightNav.svg" alt=">">
+						</div>
+					</div>
+					<swiper-container class="advant-slider" init="false">
+						<swiper-slide>
+							<div class="advant-card">
+								<h3>01</h3>
+								<div class="advant-card-content">
+									<h3>Ускоряет и облегчает обслуживание клиентов</h3>
+									<span>Сокращает время, затрачиваемое на оффлайн покупки, предлагая удобство оформления заказа из любого места и в любое время</span>
+								</div>
+							</div>
+						</swiper-slide>
+						<swiper-slide>
+							<div class="advant-card">
+								<h3>02</h3>
+								<div class="advant-card-content">
+									<h3>Увеличивает продажи</h3>
+									<span>Персонализированные рекомендации и быстрый доступ к товарам увеличивают средний чек и продажи</span>
+								</div>
+							</div>
+						</swiper-slide>
+						<swiper-slide>
+							<div class="advant-card">
+								<h3>03</h3>
+								<div class="advant-card-content">
+									<h3>Автоматизирует процессы</h3>
+									<span>Снижает часть нагрузки сотрудников - заказы оформляются автоматически, а консультации по товару клиент получает прямо в карточках продукции</span>
+								</div>
+							</div>
+						</swiper-slide>
+						<swiper-slide>
+							<div class="advant-card">
+								<h3>04</h3>
+								<div class="advant-card-content">
+									<h3>Минимальные риски</h3>
+									<span>Установленные прямые связи с клиентами, помогают быстро решать задачи, не покидая приложение</span>
+								</div>
+							</div>
+						</swiper-slide>
+					</swiper-container>
+				</div>
+			</section>
+			<section>
+				<div class="process">
+					<h2>стек технологий</h2>
+					<div class="tabs-holder">
+						<div class="tabs-head">
+							<div class="tab-head active" data-id="0">
+								<span class="tab-title">Разработка моб. приложений</span>
+							</div>
+							<div class="tab-head" data-id="1">
+								<span class="tab-title">Разработка – Frontend</span>
+							</div>
+							<div class="tab-head" data-id="2">
+								<span class="tab-title">Разработка – Backend</span>
+							</div>
+						</div>
+						<div class="tabs-content">
+							<div class="tab-content active">
+								<div class="tab-item">
+									<img src="images/react-native.svg">
+									<span>React Native</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/Kotlin.svg">
+									<span>Kotlin</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/swift.svg">
+									<span>Swift</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/Flutter.svg">
+									<span>Flutter</span>
+								</div>
+							</div>
+							<div class="tab-content">
+								<div class="tab-item">
+									<img src="images/reactjs.svg">
+									<span>React.js</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/vuejs.svg">
+									<span>Vue.js</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/js.svg">
+									<span>JavaScript</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/ts.svg">
+									<span>TypeScript</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/Angular.svg">
+									<span>Angular</span>
+								</div>
+							</div>
+							<div class="tab-content">
+								<div class="tab-item">
+									<img src="images/Symfony.svg">
+									<span>Symfony</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/Laravel.svg">
+									<span>Laravel</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/yii.png">
+									<span>YII</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/zend.svg">
+									<span>Zend</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/Spring.svg">
+									<span>Spring Boot</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/Spring.svg">
+									<span>Spring</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/Golang.svg">
+									<span>Golang</span>
+								</div>
+								<div class="tab-item">
+									<img src="images/java.svg">
+									<span>Java</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="industry">
+					<h3 class="">Разработка мобильных приложений для стартапов, малого и среднего бизнеса, а также лидеров рынка в отраслях:</h3>
+					<ul class="industry-items">
+						<li>Финансы</li>
+						<li>Коммерция</li>
+						<li>Медицина</li>
+						<li>Страхование</li>
+						<li>Развлечения</li>
+						<li>Госсектор</li>
+						<li>Образование</li>
+						<li>Фудтех</li>
+						<li>IoT</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Варианты сотрудничества</h2>
+				<div class="coopertaion">
+					<div class="coop-item">
+						<div class="coop-title">Исследование</div>
+						<p>Аудит продукта, рекомендации по его улучшению</p>
+						<a onclick="openRequest(this)" class="button coop-button">Оставить заявку</a>
+					</div>
+					<div class="coop-item">
+						<div class="coop-title">Разработка под ключ</div>
+						<p>Изучение целей и задач, анализ рынка и ЦА, проектирование и дизайн</p>
+						<a onclick="openRequest(this)" class="button coop-button">Оставить заявку</a>
+					</div>
+					<div class="coop-item">
+						<div class="coop-title">Усилие команд</div>
+						<p>Оперативное предоставление специалистов, подключение к проекту на любой срок</p>
+						<a onclick="openRequest(this)" class="button coop-button">Оставить заявку</a>
+					</div>
+				</div>
+			</section>
+			<script>
+				// send email
+				// document.querySelector('.contractor-input').addEventListener('submit', (e) => {
+				//   e.preventDefault();
+				//   const email = document.querySelector('#contractor-email').value
+				//   options = {
+				//     method: "GET",
+				//     cors: "no-cors"
+				//   }
+				//   fetch('sendMail.php?email=' + email)
+				//     .then(data => emailSuccess(data))
+				// })
+			</script>
+			<section id="process">
+				<div class="work">
+					<h2 class="work-title">Как работаем</h2>
+					<p>Создаем полностью новый продукт индивидуально под цели клиента</p>
+					<div class="work-slider swiper">
+						<div class="hr"></div>
+						<div class="work-pagination"></div>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="work-card">
+									<div class="work-card-content">
+										<span>Оперативно изучаем и предлагаем решение</span>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="work-card">
+									<div class="work-card-content">
+										<span>Продумываем логику и функционал, создаем визуальное решение</span>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="work-card">
+									<div class="work-card-content">
+										<span>Подбираем стек технологий, разарбатываем архитектуру и разрабатываем</span>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="work-card">
+									<div class="work-card-content">
+										<span>Тестируем, устраняем недочёты</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="work mobile">
+					<h2 class="work-title">Как работаем</h2>
+					<p>Создаем полностью новый продукт индивидуально под цели клиента</p>
+					<div class="work-wrapper">
+						<div class="work-progress">
+							<div class="work-section active"></div>
+							<div class="work-section"></div>
+							<div class="work-section"></div>
+							<div class="work-section"></div>
+						</div>
+						<div class="work-stages">
+							<div class="stage">
+								<span class="stage-num">1 этап</span>
+								<span class="stage-descr">Оперативно изучаем и предлагаем решение</span>
+							</div>
+							<div class="stage">
+								<span class="stage-num">2 этап</span>
+								<span class="stage-descr">Продумываем логику и функционал, создаем визуальное решение</span>
+							</div>
+							<div class="stage">
+								<span class="stage-num">3 этап</span>
+								<span class="stage-descr">Подбираем стек технологий, разарбатываем архитектуру и разрабатываем</span>
+							</div>
+							<div class="stage">
+								<span class="stage-num">4 этап</span>
+								<span class="stage-descr">Тестируем, устраняем недочёты</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">частые вопросы</h2>
+				<div class="questions-wrapper">
+					<div class="left">
+						<div class="not-found">
+							<h4 class="not-found-title">Не нашли то, что искали?</h4>
+							<span class="small not-found-desc">Отправьте свой вопрос на нашу почту</span>
+							<a href="#form" class="banner-button button">Задать вопрос</a>
+						</div>
+					</div>
+					<div class="right">
+						<div class="accordeon">
+							<div onclick="toggleAccordeon(this)" class="accordeon-body">
+								<span class="accordeon-question">Какая информация нужна для оценки стоимости и сроков?<img draggable="false" src="images/accordeon_arrow.svg" alt="^"></span>
+								<div class="accordeon-subject">
+									<div class="small accordeon-subject-text">
+										Идеальным вариантом для оценки будет заполненное техническое задание от вас, с подробным описанием функций приложения. Если ТЗ сложно заполнить, то в запросе укажите для каких платформ нужно разработать приложение. Также будет здорово, если вы прикрепите референсы.
+									</div>  
+								</div>
+							</div>
+							<div onclick="toggleAccordeon(this)" class="accordeon-body">
+								<span class="accordeon-question">Берете ли вы приложения на доработку?<img draggable="false" src="images/accordeon_arrow.svg" alt="^"></span>
+								<div class="accordeon-subject">
+									<div class="small accordeon-subject-text">
+										Да, берем. Перед работой осуществляем ревью приложения и даем рекомендации по улучшению. Формат работы может быть как Time & Materials (оплата за фактически затраченное на задачи время), так и Retainer (стоимость работы команды или отдельных специалистов за месяц) или FixPrice (зафиксированная стоимость всего проекта).
+									</div>  
+								</div>
+							</div>
+							<div onclick="toggleAccordeon(this)" class="accordeon-body">
+								<span class="accordeon-question">Отчего зависят сроки разработки приложений?<img draggable="false" src="images/accordeon_arrow.svg" alt="^"></span>
+								<div class="accordeon-subject">
+									<div class="small accordeon-subject-text">
+										Сроки разработки мобильного приложения напрямую зависят от функционала, который необходимо разработать, а также выбора платформ и технологий. Например, просто приложение под одну платформу (iOS, Android) можно сделать за 1-2 месяца, при условии, что не потребуется разрабатывать серверную часть. Некоторые приложения разрабатываются полгода, год. Например, сложные приложения с серверной частью, взаимодействием между пользователями, поддержкой расширенного количества платформ (iOS, Android, tvOS, iPadOS, Android TV и так далее), веб-интерфейсом для администрирования.
+									</div>
+								</div>
+							</div>
+							<div onclick="toggleAccordeon(this)" class="accordeon-body">
+								<span class="accordeon-question">Кто входит в команду разработки приложения?<img draggable="false" src="images/accordeon_arrow.svg" alt="^"></span>
+								<div class="accordeon-subject">
+									<div class="small accordeon-subject-text">
+										Проектный менеджер для координации работы команды. UI/UX-дизайнер проектирования интерфейса и логики. Разработчики для создания фронтенда и бэкенда. Тестировщик для проверки правильности функционирования продукта.
+									</div>
+								</div>
+							</div>
+							<div onclick="toggleAccordeon(this)" class="accordeon-body">
+								<span class="accordeon-question">Поддерживаете ли вы приложение после релиза?<img draggable="false" src="images/accordeon_arrow.svg" alt="^"></span>
+								<div class="accordeon-subject">
+									<div class="small accordeon-subject-text">
+										После релиза продукт остается на поддержке по желанию заказчика. Мы заключаем договор, который будет включать в себя определенное количество часов в месяц по установленной плате.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="form">
+				<h2>оформить заявку</h2>
+				<form action="#" class="leave-request" id="leave-request-form">
+					<div class="toppings">
+						<input class="topi" type="checkbox" name="logo" id="t1">
+						<label class="topping" for="t1">Разработка логотипа</label>
+						<input class="topi" type="checkbox" name="logo" id="t2">
+						<label class="topping" for="t2">Калькулятор</label>
+						<input class="topi" type="checkbox" name="logo" id="t3">
+						<label class="topping" for="t3">Квиз</label>
+						<input class="topi" type="checkbox" name="logo" id="t4">
+						<label class="topping" for="t4">Поддержка сайта</label>
+						<input class="topi" type="checkbox" name="logo" id="t5">
+						<label class="topping" for="t5">Запуск рекламы Яндекс.Директ</label>
+						<input class="topi" type="checkbox" name="logo" id="t6">
+						<label class="topping" for="t6">Настройка аналитики</label>
+						<input class="topi" type="checkbox" name="logo" id="t7">
+						<label class="topping" for="t7">Онлайн-чат</label>
+					</div>
+					<div class="main-part">
+						<textarea name="description" id="request-description" rows="3" placeholder="Напишите кратко о проекте"></textarea>
+						<input type="file" name="additional-file" id="file" multiple>
+						<label class="add-file" for="file">
+							<div class="file-icon">
+								<img draggable="false" src="images/clip.svg" alt="8">
+							</div>
+							<div class="file-desc">
+								<span class="file-hint">Прикрепить файлы</span>
+								<span class="file-hint-desc">Загружаемые файлы не должны превышать 20 мб</span>
+							</div>
+						</label>
+						<input type="text" name="name" id="request-name" placeholder="Как вас зовут?">
+						<input type="text" name="email-or-phone" id="contacts" placeholder="E-mail или телефон">
+						<input class="button" id="send-form" type="submit" value="Обсудить проект">
+					</div>
+				</form>
+			</section>
+		</div>
+		<footer>
+			<div class="first-part-wrapper">
+				<div class="first-part">
+					<div class="footer-row">
+						<img draggable="false" src="images/logo.svg" alt="SMG">
+						<div class="credentials">
+							<span class="credentials-number small">ИНН: 7729668550</span>
+							<span class="credentials-number small">КПП: 772501001</span>
+						</div>
+					</div>
+					<div class="footer-row">
+						<div class="footer-side">
+							<span class="adress-desc">Офис в Москве</span>
+							<span class="adress">Переулок Кожевнический 4-й,<br>дом 2/12, г. Москва, 115114</span>
+						</div>
+						<div class="footer-side">
+							<a class="footer-number" href="tel:+7 (495) 532-72-71">+7 (495) 532-72-71</a>
+							<a class="footer-email" href="mailto:landing@softmg.ru">landing@softmg.ru</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="afterparty-wrapper">
+				<div class="afterparty">
+					<div class="afterparty-side">
+						<a href="https://softmg.ru/agreement/">Политика конфиденциальности</a>
+					</div>
+					<div class="afterparty-side">
+						<a href="https://wa.me/79015171505">
+							<img draggable="false" src="images/waw.svg" alt="WhatsApp">
+						</a>
+						<a href="https://vk.com/softmg">
+							<img draggable="false" src="images/vkw.svg" alt="VK">
+						</a>
+						<a href="https://t.me/softmgbot">
+							<img draggable="false" src="images/tgw.svg" alt="Telegram">
+						</a>
+					</div>
+					<div class="afterparty-side">
+						<span class="copywrite">© 2010–2023 Soft Media Group. Все права защищены.</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="sendmail-popup-wrapper hidden">
+			<div class="sendmail-popup">
+				<img src="./images/close-cross-poup.svg" alt="X" class="close-popup">
+				<div class="popup-contents">
+					<span class="popup-status">Успешно</span>
+					<span class="popup-title">Заявка оформлена!</span>
+					<span class="popup-description">Наши менеджеры свяжутся с вами в ближайшее время</span>
+				</div>
+			</div>
+		</div>
+		<div class="offer-request-wrapper hidden">
+			<div class="offer-request sendmail-popup">
+				<img src="./images/close-cross-poup.svg" alt="X" class="close-popup">
+				<div class="request-contents main-part">
+					<span class="offer-request-title">Оформить заявку</span>
+					<span class="offer-request-description">Заполните форму и мы свяжемся с вами.</span>
+					<form id="request-offer">
+						<div class="request-offer-inputs">
+							<div class="left">
+								<input placeholder="Как вас зовут?" type="text" name="name" id="name-request">
+								<span class="offer-error-name">&nbsp;</span>
+							</div>
+							<div class="right">
+								<input placeholder="Телефон или email" type="text" name="contacts" id="contacts-request">
+								<span class="offer-error-contacts">&nbsp;</span>
+							</div>
+						</div>
+						<input class="button" id="send-form-request" type="submit" value="Отправить">
+						<span class="offer-request-description">Нажимая на кнопку, вы соглашаетесь с политикой обработки персональных данных.</span>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/formHandler.js" type="text/javascript"></script>
+	</body>
+</html>
