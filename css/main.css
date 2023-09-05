@@ -39,7 +39,7 @@ section {
   padding-top: var(--block-padding);
   margin: 0 auto;
 }
-span, p, input, li, input::placeholder {
+span, p, input, li, input::placeholder, textarea::placeholder {
   color: var(--text-main-color);
   font-family: "TT Norms Pro";
   font-weight: 500;
@@ -241,6 +241,7 @@ input[type="file"] {
   font-size: var(--normal-size);
   font-weight: 500;
   margin: 0 0 30px;
+  line-height: 140%;
 }
 
 .advant-controls {
@@ -272,7 +273,7 @@ input[type="file"] {
   background-color: var(--main-color);
 }
 .advant-card h3 {
-  font-size: 24px;
+  font-size: var(--accent3-size);
   margin-bottom: 36px;
 }
 .advant-card span {
@@ -414,13 +415,16 @@ swiper-container {
   flex-direction: column;
 }
 .coop-item .coop-title {
+  margin: 0 0 24px;
+}
+.coop-item .coop-title span {
   font-size: 22px;
   color: var(--text-accent-color);
-  margin: 0 0 24px;
 }
 .coop-item p {
   font-size: var(--normal-size);
   margin: 0 0 30px;
+  line-height: 140%;
 }
 .coop-item .coop-button {
   margin-top: auto;
@@ -589,6 +593,7 @@ swiper-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 .work-stages .stage {
   display: flex;
@@ -629,6 +634,7 @@ swiper-container {
 .accordeon-question {
   position: relative;
   z-index: 2;
+  font-size: var(--accent3-size);
 }
 .accordeon-subject {
   position: relative;
@@ -638,6 +644,15 @@ swiper-container {
 }
 .accordeon-body.active .accordeon-question img {
   rotate: 180deg;
+}
+.accordeon-body.active {
+  background-color: var(--card-bg-color) !important;
+}
+.accordeon-subject .accordeon-subject-text {
+  font-family: "TT Norms Pro";
+  line-height: 180%;
+  font-size: var(--normal-size);
+  font-weight: 500;
 }
 
 .not-found {
@@ -653,7 +668,8 @@ swiper-container {
   font-weight: 500;
   margin-bottom: 12px;
 }
-.not-found-desc {
+.not-found .not-found-desc {
+  font-size: var(--normal-size);
   color: var(--text-accent-color);
 }
 .toppings {
@@ -673,6 +689,7 @@ swiper-container {
   user-select: none;
   cursor: pointer;
   transition: .3s;
+  font-family: "TT Norms Pro";
 }
 .topi:checked + .topping {
   background-color: var(--main-color);
@@ -719,6 +736,10 @@ swiper-container {
   height: 23px;
   background-color: var(--card-bg-color);
   border-radius: 40px;
+  transition: .2s;
+}
+.file-icon img:hover {
+  background-color: #3E3E3E;
 }
 .file-icon {
   cursor: pointer;
@@ -811,7 +832,6 @@ swiper-container {
   text-align: right;
   font-size: var(--accent2-size);
   color: var(--text-main-color);
-  text-decoration: underline;
 }
 .adress, .adress-desc {
   font-size: var(--accent3-size);

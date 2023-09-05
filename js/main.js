@@ -44,7 +44,7 @@ const workSlider = new Swiper('.work-slider', {
       el: '.work-pagination',
       renderBullet: (index, className) => {
           index = index + 1;
-          return '<span class="' + className + '"><span class="stage">Этап ' + index + '</span></span>'
+          return '<span class="' + className + '"><span class="stage">' + index + ' этап</span></span>'
       },
       clickable: true
   }
