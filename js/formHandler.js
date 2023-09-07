@@ -24,6 +24,7 @@ document.querySelector('#leave-request-form').addEventListener('submit', (e) => 
                 description.addEventListener('input', () => {
                     description.style.outline = 'none';
                 })
+                description.parentElement.children[1].style.display = "block"
             }
         },
         {
@@ -33,6 +34,7 @@ document.querySelector('#leave-request-form').addEventListener('submit', (e) => 
                 name.addEventListener('input', () => {
                     name.style.outline = 'none';
                 })
+                name.parentElement.children[1].style.display = "block"
             }
         },
         {
@@ -42,6 +44,7 @@ document.querySelector('#leave-request-form').addEventListener('submit', (e) => 
                 contacts.addEventListener('input', () => {
                     contacts.style.outline = 'none';
                 })
+                contacts.parentElement.children[1].style.display = "block"
             }
         },
         {

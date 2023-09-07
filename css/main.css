@@ -724,11 +724,14 @@ swiper-container {
   padding: 20px 28px;
   font-size: var(--normal-size);
   font-weight: 500;
+  box-sizing: border-box;
+  width: 100%;
 }
 #send-form {
   background-color: var(--main-color);
   color: var(--text-accent-color);
   cursor: pointer;
+  height: fit-content;
 }
 .add-file {
   display: flex;
@@ -748,6 +751,13 @@ swiper-container {
 }
 .file-icon {
   cursor: pointer;
+}
+.form-error {
+  display: none;
+  margin-top: 5px
+}
+.form-error span {
+  color: #FF4D57;
 }
 .file-desc {
   display: flex;
@@ -796,6 +806,9 @@ swiper-container {
   display: flex;
   align-items: center;
   background-color: #232323;
+}
+.selected-file.error {
+  border: 1px solid #FF4D57
 }
 .selected-file img {
   margin-left: auto;
