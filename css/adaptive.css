@@ -184,6 +184,8 @@
     justify-content: space-between;
     transform: translateX(100%);
     transition: .3s ;
+    height: 100vh;
+    margin-bottom: auto;
   }
   .slide-menu-wrapper.active .slide-menu {
     transform: translateX(0);
@@ -352,9 +354,7 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   .slide-menu {
-    height: 100vh;
     width: calc(50% - 64px);
-    margin-bottom: auto;
   }
   .main-nav {
     height: 116px;
@@ -463,10 +463,6 @@
 }
 
 @media screen and (min-width: 484px) and (max-width: 768px) {
-  .slide-menu {
-    height: 100%;
-    width: calc(50% - 64px);
-  }
   .main-nav {
     height: 116px;
   }
@@ -532,7 +528,6 @@
     padding: 16px;
   }
   .slide-menu {
-    height: 100%;
     width: 100%;
   }
   .slide-menu-contacts {
