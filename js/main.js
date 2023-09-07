@@ -149,6 +149,11 @@ function removeFileFromFileList(index) {
 
 document.querySelectorAll('.close-popup').forEach((el) => {
   el.addEventListener('click', () => {
+    document.getElementById('request-offer').reset()
+    document.getElementById('contacts-request').style.border = "none"
+    document.querySelectorAll('.offer-error-contacts').forEach((it) => { it.innerHTML = '&nbsp'})
+    document.querySelectorAll('.offer-error-name').forEach((it) => { it.innerHTML = '&nbsp'})
+    document.querySelectorAll('input').forEach((it) => { it.classList.remove('error') })
     document.querySelector('.sendmail-popup-wrapper').classList.add('hidden')
     document.querySelector('.offer-request-wrapper').classList.add('hidden')
   })

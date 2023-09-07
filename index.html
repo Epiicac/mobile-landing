@@ -486,20 +486,26 @@
 					</div>
 					<div class="main-part">
 						<textarea name="description" id="request-description" rows="3" placeholder="Напишите кратко о проекте"></textarea>
-						<input type="file" name="additional-file" id="file" multiple>
+						<input type="file" name="additional-file[]" id="file" multiple>
 						<label class="add-file" for="file">
+						  <div class="file-wrapper">
 							<div class="file-icon">
-								<img draggable="false" src="images/clip.svg" alt="8">
+							  <img draggable="false" src="images/clip.svg" alt="8">
 							</div>
 							<div class="file-desc">
-								<span class="file-hint">Прикрепить файлы</span>
-								<span class="file-hint-desc">Загружаемые файлы не должны превышать 20 мб</span>
+							  <span class="file-hint">Прикрепить файлы</span>
+							  <span class="file-hint-desc">Загружаемые файлы не должны превышать 20 мб</span>
 							</div>
+						  </div>
+						  <div class="file-error">
+							<span class="size-error">Превышен вес файлов</span>
+							<span class="count-error">Превышено количество файлов</span>
+						  </div>
 						</label>
 						<input type="text" name="name" id="request-name" placeholder="Как вас зовут?">
 						<input type="text" name="email-or-phone" id="contacts" placeholder="E-mail или телефон">
 						<input class="button" id="send-form" type="submit" value="Оставить заявку">
-					</div>
+					  </div>
 				</form>
 			</section>
 		</div>
@@ -543,6 +549,9 @@
 					</div>
 					<div class="afterparty-side">
 						<span class="copywrite">© 2010–2023 Soft Media Group. Все права защищены.</span>
+					</div>
+					<div class="afterparty-side">
+						<a href="#">Документы</a>
 					</div>
 				</div>
 			</div>

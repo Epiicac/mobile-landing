@@ -151,7 +151,6 @@
     width: 100%;
     padding: 20px;
     text-align: center;
-    margin-bottom: -20px;
   }
 
   .main-nav {
@@ -322,6 +321,10 @@
     order: 1;
   }
   .afterparty .afterparty-side:nth-child(3) {
+    order: 4
+  }
+  .afterparty .afterparty-side:nth-child(4) {
+    display: block;
     order: 3
   }
   .afterparty .afterparty-side {
@@ -409,6 +412,9 @@
     width: 100%;
     margin: 0;
   }
+  .process .tab-head {
+    background-color: #1A1A1A;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -478,6 +484,18 @@
 }
 
 @media screen and (max-width: 582px) {
+  .banner-tags {
+    display: none;
+  }
+  .banner-title {
+    margin: 76px 0px 48px;
+  }
+  .banner {
+    padding: 24px;
+  }
+  .banner-description {
+    max-width: 80%;
+  }
   .advant-navigation {
     display: none;
   }
@@ -525,13 +543,6 @@
 
   .section-title {
     max-width: 100%;
-  }
-
-  .banner {
-    padding: 34px;
-  }
-  .banner-tags {
-    display: none;
   }
 
   .advant-card {

@@ -172,7 +172,8 @@ input[type="file"] {
 }
 .banner-button {
   border-radius: var(--small-radius);
-  display: ruby-base;
+  box-sizing: border-box;
+  display: block;
 }
 .banner {
   background-image: url("../images/banner.webp");
@@ -211,6 +212,7 @@ input[type="file"] {
 }
 .banner-description {
   font-size: var(--normal-size);
+  text-align: center;
 }
 
 
@@ -223,6 +225,7 @@ input[type="file"] {
   padding: 48px 48px 0px 48px;
   border-radius: var(--medium-radius);
   background-color: var(--card-bg-color);
+  overflow: hidden;
 }
 .choise-card .card-title {
   margin: 0 0 36px;
@@ -433,6 +436,7 @@ swiper-container {
   border-radius: var(--small-radius);
   box-sizing: border-box;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .work p {
@@ -729,6 +733,7 @@ swiper-container {
 .add-file {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
 .file-icon img {
   padding: 20px;
@@ -749,6 +754,20 @@ swiper-container {
   flex-direction: column;
   gap: 10px;
   width: 100%;
+}
+.file-wrapper {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+.file-error {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.file-error span {
+  display: none;
+  color: #FF4D57;
 }
 .selected-files {
   display: flex;
@@ -853,6 +872,9 @@ swiper-container {
 .afterparty-side {
   display: flex;
   gap: 24px;
+}
+.afterparty .afterparty-side:nth-child(4) {
+  display: none;
 }
 .afterparty-side span {
   color: var(--text-accent-color);
@@ -978,6 +1000,9 @@ swiper-container {
 } 
 #request-offer .offer-request-description {
   text-align: center;
+}
+form input.error {
+  border: 1px solid #FF4D57 !important;
 }
 .request-contents {
   height: 100%;
