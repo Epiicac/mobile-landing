@@ -1015,7 +1015,7 @@ swiper-container {
   text-align: center;
 }
 form input.error {
-  border: 1px solid #FF4D57 !important;
+  border: 2px solid #FF4D57 !important;
 }
 .request-contents {
   height: 100%;
