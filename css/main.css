@@ -100,7 +100,7 @@ input[type="file"] {
   border-radius: 18px;
 }
 .main-nav.mobile .menu-item:after {
-  content: url('/images/arr_right.svg');
+  content: url('../images/arr_right.svg');
   display: block;
   margin-left: auto;
   height: 24px;
