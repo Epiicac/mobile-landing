@@ -93,11 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
     $('#file').on('change', function (event) {
         event.preventDefault();
         event.stopPropagation();
-        for (let file of event.target.files) {
-            if (notDuplicate(files, file)) {
-                files.push(file)
-            }
-        }
+          for (let file of event.target.files) {
+              if (notDuplicate(files, file)) {
+                  files.push(file)
+              }
+          }
+        
         data = new DataTransfer()
         for (let file of files) {
             data.items.add(file)
@@ -106,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateFiles()
     });
 })
+
 function removeFileFromFileList(index) {
     files.splice(index, 1)
     data = new DataTransfer()
@@ -196,16 +198,42 @@ document.querySelector('.slide-menu-wrapper .header-button').addEventListener('c
 
 document.querySelectorAll('.close-popup').forEach((el) => {
   el.addEventListener('click', () => {
+    document.querySelector('.sendmail-popup-wrapper').classList.add('hidden')
+    document.querySelector('.offer-request-wrapper').classList.add('hidden')
     document.getElementById('request-offer').reset()
-    document.getElementById('contacts-request').style.border = "none"
+    document.querySelector('#contacts-request').style.outline = 'none'
+    document.querySelector('.offer-error-contacts').innerHTML = ''
     document.querySelectorAll('.offer-error-contacts').forEach((it) => { it.innerHTML = '&nbsp'})
     document.querySelectorAll('.offer-error-name').forEach((it) => { it.innerHTML = '&nbsp'})
     document.querySelectorAll('input').forEach((it) => { it.classList.remove('error') })
-    document.querySelector('.sendmail-popup-wrapper').classList.add('hidden')
-    document.querySelector('.offer-request-wrapper').classList.add('hidden')
   })
 })
 
 function openRequest(el) {
   document.querySelector('.offer-request-wrapper').classList.remove('hidden')
 }
+document.addEventListener('DOMContentLoaded', () => {
+  window.addEventListener('resize', function(event) {
+    let arrNav = document.querySelector('#prevAdvant');
+    if (arrNav.classList.contains('swiper-button-lock')) {
+      arrNav.nextElementSibling.style.display = "none";
+    } else {
+      arrNav.nextElementSibling.style.display = "block";
+    }
+  }, true)
+})
+
+document.querySelectorAll('.coop-button').forEach((el) => {
+  el.addEventListener('click', () => {
+    document.querySelectorAll('input:not(#contractor-email, input[type="submit"]), textarea').forEach((item) => {
+      item.value = '';
+      item.checked = false;
+      item.style.border = "none"
+      if (item.parentElement.children[1].classList.contains('form-error')) {
+        item.parentElement.children[1].style.display = "none"
+      }
+    })
+    files = [];
+    updateFiles();
+  })
+})

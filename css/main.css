@@ -661,6 +661,10 @@ swiper-container {
   font-weight: 500;
 }
 
+.questions-wrapper .left {
+  display: flex;
+  align-items: flex-end;
+}
 .not-found {
   display: flex;
   flex-direction: column;
