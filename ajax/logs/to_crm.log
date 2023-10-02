@@ -1,0 +1,133 @@
+{"result":4750,"time":{"start":1692262909.667838,"finish":1692262910.095707,"duration":0.4278688430786133,"processing":0.388063907623291,"date_start":"2023-08-17T12:01:49+03:00","date_finish":"2023-08-17T12:01:50+03:00"}}
+
+{"result":4752,"time":{"start":1692263013.013829,"finish":1692263013.330596,"duration":0.31676697731018066,"processing":0.2735471725463867,"date_start":"2023-08-17T12:03:33+03:00","date_finish":"2023-08-17T12:03:33+03:00"}}
+
+{"result":4753,"time":{"start":1692263449.019576,"finish":1692263449.481678,"duration":0.46210193634033203,"processing":0.41060400009155273,"date_start":"2023-08-17T12:10:49+03:00","date_finish":"2023-08-17T12:10:49+03:00"}}
+
+{"result":4755,"time":{"start":1692264596.1027,"finish":1692264596.478829,"duration":0.3761289119720459,"processing":0.340656042098999,"date_start":"2023-08-17T12:29:56+03:00","date_finish":"2023-08-17T12:29:56+03:00"}}
+
+{"result":4756,"time":{"start":1692264596.1027,"finish":1692264596.479873,"duration":0.37717294692993164,"processing":0.34169983863830566,"date_start":"2023-08-17T12:29:56+03:00","date_finish":"2023-08-17T12:29:56+03:00"}}
+
+{"result":4757,"time":{"start":1692264628.841943,"finish":1692264629.114568,"duration":0.2726249694824219,"processing":0.24446487426757812,"date_start":"2023-08-17T12:30:28+03:00","date_finish":"2023-08-17T12:30:29+03:00"}}
+
+{"result":4758,"time":{"start":1692265238.071746,"finish":1692265238.450428,"duration":0.37868189811706543,"processing":0.3316311836242676,"date_start":"2023-08-17T12:40:38+03:00","date_finish":"2023-08-17T12:40:38+03:00"}}
+
+{"result":4759,"time":{"start":1692265378.918043,"finish":1692265379.2877,"duration":0.369657039642334,"processing":0.33019113540649414,"date_start":"2023-08-17T12:42:58+03:00","date_finish":"2023-08-17T12:42:59+03:00"}}
+
+{"result":4760,"time":{"start":1692265796.895577,"finish":1692265797.329955,"duration":0.43437814712524414,"processing":0.39285707473754883,"date_start":"2023-08-17T12:49:56+03:00","date_finish":"2023-08-17T12:49:57+03:00"}}
+
+{"result":4761,"time":{"start":1692265877.491688,"finish":1692265877.82067,"duration":0.328981876373291,"processing":0.2879910469055176,"date_start":"2023-08-17T12:51:17+03:00","date_finish":"2023-08-17T12:51:17+03:00"}}
+
+{"result":4942,"time":{"start":1692690884.897629,"finish":1692690885.204493,"duration":0.30686402320861816,"processing":0.2789461612701416,"date_start":"2023-08-22T10:54:44+03:00","date_finish":"2023-08-22T10:54:45+03:00"}}
+
+{"result":4945,"time":{"start":1692693601.959294,"finish":1692693602.364733,"duration":0.4054388999938965,"processing":0.37100696563720703,"date_start":"2023-08-22T11:40:01+03:00","date_finish":"2023-08-22T11:40:02+03:00"}}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=windows-1251"/>
+	<style type="text/css">
+		.error {color:#000; height:200px; margin:-100px 0 0 -340px; font-family:Arial, sans-serif; text-align:center; position:absolute; top:50%; text-align:center; left:50%; width:680px;}
+		.error-fon {font-size:240px; font-weight:bold; line-height:240px; color:#f5f5f5; position:absolute; top:-16px; left:50%; margin-left:-200px; z-index:-1;}
+		.error-text-top {font-size:40px; margin-top:50px;}
+		.error-test-separate {border-top:1px solid #f2f2f2; margin-top:10px;}
+		.error-text-bottom {font-size:20px; margin-top:16px;}
+	</style>
+	<title>502 Bad Gateway</title>
+</head>
+<body>
+<div class="error">
+	<div class="error-fon">502</div>
+	<div class="error-text-wrap">
+		<div class="error-text-top">502 Bad Gateway</div>
+		<div class="error-test-separate"></div>
+		<div class="error-text-bottom">Bitrix Environment</div>
+
+	</div>
+</div>
+</body>
+
+{"result":5021,"time":{"start":1692965850.224121,"finish":1692965850.6598,"duration":0.43567895889282227,"processing":0.40120911598205566,"date_start":"2023-08-25T15:17:30+03:00","date_finish":"2023-08-25T15:17:30+03:00"}}
+
+{"result":5022,"time":{"start":1692966191.385186,"finish":1692966191.737848,"duration":0.3526620864868164,"processing":0.32117295265197754,"date_start":"2023-08-25T15:23:11+03:00","date_finish":"2023-08-25T15:23:11+03:00"}}
+
+{"result":5050,"time":{"start":1693223813.457087,"finish":1693223813.792694,"duration":0.33560705184936523,"processing":0.30516982078552246,"date_start":"2023-08-28T14:56:53+03:00","date_finish":"2023-08-28T14:56:53+03:00"}}
+
+{"result":5051,"time":{"start":1693225191.095098,"finish":1693225191.507393,"duration":0.412294864654541,"processing":0.3647909164428711,"date_start":"2023-08-28T15:19:51+03:00","date_finish":"2023-08-28T15:19:51+03:00"}}
+
+{"result":5052,"time":{"start":1693225201.151287,"finish":1693225201.516579,"duration":0.3652918338775635,"processing":0.33062100410461426,"date_start":"2023-08-28T15:20:01+03:00","date_finish":"2023-08-28T15:20:01+03:00"}}
+
+{"result":5053,"time":{"start":1693226102.222778,"finish":1693226102.592226,"duration":0.3694479465484619,"processing":0.3310120105743408,"date_start":"2023-08-28T15:35:02+03:00","date_finish":"2023-08-28T15:35:02+03:00"}}
+
+{"result":5054,"time":{"start":1693226212.512689,"finish":1693226212.890702,"duration":0.37801289558410645,"processing":0.32325196266174316,"date_start":"2023-08-28T15:36:52+03:00","date_finish":"2023-08-28T15:36:52+03:00"}}
+
+{"result":5055,"time":{"start":1693226220.047053,"finish":1693226220.414031,"duration":0.3669779300689697,"processing":0.332503080368042,"date_start":"2023-08-28T15:37:00+03:00","date_finish":"2023-08-28T15:37:00+03:00"}}
+
+{"result":5056,"time":{"start":1693226227.675187,"finish":1693226228.000584,"duration":0.3253967761993408,"processing":0.2825779914855957,"date_start":"2023-08-28T15:37:07+03:00","date_finish":"2023-08-28T15:37:08+03:00"}}
+
+{"result":5057,"time":{"start":1693226237.276873,"finish":1693226237.588477,"duration":0.3116037845611572,"processing":0.2598409652709961,"date_start":"2023-08-28T15:37:17+03:00","date_finish":"2023-08-28T15:37:17+03:00"}}
+
+{"result":5058,"time":{"start":1693226246.929889,"finish":1693226247.248148,"duration":0.31825900077819824,"processing":0.278764009475708,"date_start":"2023-08-28T15:37:26+03:00","date_finish":"2023-08-28T15:37:27+03:00"}}
+
+{"result":5059,"time":{"start":1693228621.763756,"finish":1693228622.145087,"duration":0.3813309669494629,"processing":0.34890294075012207,"date_start":"2023-08-28T16:17:01+03:00","date_finish":"2023-08-28T16:17:02+03:00"}}
+
+{"result":5061,"time":{"start":1693228680.314732,"finish":1693228680.644775,"duration":0.33004283905029297,"processing":0.2980031967163086,"date_start":"2023-08-28T16:18:00+03:00","date_finish":"2023-08-28T16:18:00+03:00"}}
+
+{"result":5062,"time":{"start":1693230356.465717,"finish":1693230357.012905,"duration":0.5471878051757812,"processing":0.4993269443511963,"date_start":"2023-08-28T16:45:56+03:00","date_finish":"2023-08-28T16:45:57+03:00"}}
+
+{"result":5134,"time":{"start":1693509098.787007,"finish":1693509099.243888,"duration":0.4568808078765869,"processing":0.414064884185791,"date_start":"2023-08-31T22:11:38+03:00","date_finish":"2023-08-31T22:11:39+03:00"}}
+
+{"result":5135,"time":{"start":1693509253.276795,"finish":1693509253.703439,"duration":0.42664408683776855,"processing":0.3916780948638916,"date_start":"2023-08-31T22:14:13+03:00","date_finish":"2023-08-31T22:14:13+03:00"}}
+
+{"result":5136,"time":{"start":1693509764.707131,"finish":1693509765.211575,"duration":0.5044441223144531,"processing":0.47461390495300293,"date_start":"2023-08-31T22:22:44+03:00","date_finish":"2023-08-31T22:22:45+03:00"}}
+
+{"result":5142,"time":{"start":1693560063.060504,"finish":1693560063.419481,"duration":0.3589770793914795,"processing":0.32694005966186523,"date_start":"2023-09-01T12:21:03+03:00","date_finish":"2023-09-01T12:21:03+03:00"}}
+
+{"result":5143,"time":{"start":1693560088.45794,"finish":1693560088.75893,"duration":0.30098986625671387,"processing":0.2606079578399658,"date_start":"2023-09-01T12:21:28+03:00","date_finish":"2023-09-01T12:21:28+03:00"}}
+
+{"result":5145,"time":{"start":1693562260.956114,"finish":1693562261.4301,"duration":0.4739859104156494,"processing":0.428786039352417,"date_start":"2023-09-01T12:57:40+03:00","date_finish":"2023-09-01T12:57:41+03:00"}}
+
+{"result":5146,"time":{"start":1693562850.836936,"finish":1693562851.404157,"duration":0.56722092628479,"processing":0.5373749732971191,"date_start":"2023-09-01T13:07:30+03:00","date_finish":"2023-09-01T13:07:31+03:00"}}
+
+{"result":5147,"time":{"start":1693562963.891039,"finish":1693562964.242998,"duration":0.3519589900970459,"processing":0.31990504264831543,"date_start":"2023-09-01T13:09:23+03:00","date_finish":"2023-09-01T13:09:24+03:00"}}
+
+{"result":5148,"time":{"start":1693563036.330823,"finish":1693563036.805572,"duration":0.4747490882873535,"processing":0.4401991367340088,"date_start":"2023-09-01T13:10:36+03:00","date_finish":"2023-09-01T13:10:36+03:00"}}
+
+{"result":5149,"time":{"start":1693563127.912523,"finish":1693563128.245581,"duration":0.33305788040161133,"processing":0.303753137588501,"date_start":"2023-09-01T13:12:07+03:00","date_finish":"2023-09-01T13:12:08+03:00"}}
+
+{"result":5150,"time":{"start":1693563173.291338,"finish":1693563173.669075,"duration":0.37773704528808594,"processing":0.33524394035339355,"date_start":"2023-09-01T13:12:53+03:00","date_finish":"2023-09-01T13:12:53+03:00"}}
+
+{"result":5152,"time":{"start":1693565684.383806,"finish":1693565684.828559,"duration":0.44475293159484863,"processing":0.3970201015472412,"date_start":"2023-09-01T13:54:44+03:00","date_finish":"2023-09-01T13:54:44+03:00"}}
+
+{"result":5153,"time":{"start":1693565790.238959,"finish":1693565790.647109,"duration":0.40814995765686035,"processing":0.35784292221069336,"date_start":"2023-09-01T13:56:30+03:00","date_finish":"2023-09-01T13:56:30+03:00"}}
+
+{"result":5874,"time":{"start":1695974952.949663,"finish":1695974953.320372,"duration":0.3707091808319092,"processing":0.33929896354675293,"date_start":"2023-09-29T11:09:12+03:00","date_finish":"2023-09-29T11:09:13+03:00"}}
+
+{"result":5885,"time":{"start":1695976906.268845,"finish":1695976906.582114,"duration":0.31326889991760254,"processing":0.2786440849304199,"date_start":"2023-09-29T11:41:46+03:00","date_finish":"2023-09-29T11:41:46+03:00"}}
+
+{"result":5886,"time":{"start":1695976940.019393,"finish":1695976940.302555,"duration":0.28316211700439453,"processing":0.2350020408630371,"date_start":"2023-09-29T11:42:20+03:00","date_finish":"2023-09-29T11:42:20+03:00"}}
+
+{"result":5887,"time":{"start":1695977046.736931,"finish":1695977047.087235,"duration":0.35030388832092285,"processing":0.3177790641784668,"date_start":"2023-09-29T11:44:06+03:00","date_finish":"2023-09-29T11:44:07+03:00"}}
+
+{"result":5888,"time":{"start":1695977150.255318,"finish":1695977150.653365,"duration":0.39804697036743164,"processing":0.3594961166381836,"date_start":"2023-09-29T11:45:50+03:00","date_finish":"2023-09-29T11:45:50+03:00"}}
+
+{"result":5891,"time":{"start":1695977267.039529,"finish":1695977267.334029,"duration":0.29449987411499023,"processing":0.2534809112548828,"date_start":"2023-09-29T11:47:47+03:00","date_finish":"2023-09-29T11:47:47+03:00"}}
+
+{"result":5892,"time":{"start":1695977523.714297,"finish":1695977524.085728,"duration":0.3714308738708496,"processing":0.3303511142730713,"date_start":"2023-09-29T11:52:03+03:00","date_finish":"2023-09-29T11:52:04+03:00"}}
+
+{"result":5893,"time":{"start":1695977740.617938,"finish":1695977740.93056,"duration":0.3126220703125,"processing":0.27730512619018555,"date_start":"2023-09-29T11:55:40+03:00","date_finish":"2023-09-29T11:55:40+03:00"}}
+
+{"result":5894,"time":{"start":1695977805.83639,"finish":1695977806.308948,"duration":0.47255802154541016,"processing":0.4300868511199951,"date_start":"2023-09-29T11:56:45+03:00","date_finish":"2023-09-29T11:56:46+03:00"}}
+
+{"result":5895,"time":{"start":1695978330.181683,"finish":1695978330.519465,"duration":0.3377819061279297,"processing":0.2967851161956787,"date_start":"2023-09-29T12:05:30+03:00","date_finish":"2023-09-29T12:05:30+03:00"}}
+
+{"result":5896,"time":{"start":1695978490.260686,"finish":1695978490.60384,"duration":0.3431541919708252,"processing":0.30355191230773926,"date_start":"2023-09-29T12:08:10+03:00","date_finish":"2023-09-29T12:08:10+03:00"}}
+
+{"result":5898,"time":{"start":1695979693.926074,"finish":1695979694.391193,"duration":0.4651188850402832,"processing":0.43227219581604004,"date_start":"2023-09-29T12:28:13+03:00","date_finish":"2023-09-29T12:28:14+03:00"}}
+
+{"result":5899,"time":{"start":1695979715.448337,"finish":1695979715.831332,"duration":0.3829948902130127,"processing":0.33332180976867676,"date_start":"2023-09-29T12:28:35+03:00","date_finish":"2023-09-29T12:28:35+03:00"}}
+
+{"result":5900,"time":{"start":1695980025.64232,"finish":1695980026.045397,"duration":0.4030771255493164,"processing":0.3631899356842041,"date_start":"2023-09-29T12:33:45+03:00","date_finish":"2023-09-29T12:33:46+03:00"}}
+
+{"result":5901,"time":{"start":1695980248.235986,"finish":1695980248.575877,"duration":0.3398909568786621,"processing":0.2991931438446045,"date_start":"2023-09-29T12:37:28+03:00","date_finish":"2023-09-29T12:37:28+03:00"}}
+
